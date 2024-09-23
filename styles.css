@@ -350,8 +350,8 @@ header .social-icons img:hover {
 #cryptography {
     padding: 50px 0; /* Espacio superior e inferior */
     background-image: url('img/rosa.jpg');
-    background-size: cover; /* Asegura que la imagen cubra todo el área */
-    background-position: center; /* Centra la imagen */
+    background-size: cover; 
+    background-position: center; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -365,10 +365,10 @@ header .social-icons img:hover {
     width: 90%; /* Ajusta el contenedor al 90% del ancho disponible/responsivo */
     padding: 20px;
     box-sizing: border-box;
-    position: relative; /* Permite que los botones estén posicionados con respecto al contenedor */
-    overflow: hidden; /* Oculta contenido desbordado */
-    border-radius: 10px; /* Bordes redondeados */
-    background-color: rgba(252, 237, 212, 0.5); /* Fondo semi-transparente */
+    position: relative; 
+    overflow: hidden; 
+    border-radius: 10px; 
+    background-color: rgba(252, 237, 212, 0.5); 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra suave */
 }
 
@@ -387,21 +387,20 @@ header .social-icons img:hover {
 }
 
 .carousel-item.active {
-    display: flex; /* Muestra el elemento activo */
-    /*flex-direction: column;*/
-        align-items: center; /* Centra el contenido (aparentemento no pasa nada)*/
+    display: flex; 
+        align-items: center; 
 }
 
 .carousel-item img {
-    max-width: 100%; /* Mantiene la imagen dentro del contenedor */
-    object-fit: contain; /* Ajusta la imagen dentro del contenedor */
-    border-radius: 15px; /* Bordes redondeados */
-    margin-left: 50px; /* Espacio a la derecha de la imagen */
+    max-width: 100%; 
+    object-fit: contain; 
+    border-radius: 15px; 
+    margin-left: 50px; 
 }
 
 .carousel-text {
-    flex: 1; /* El texto ocupa el espacio restante */
-    text-align: left; /* Alinea el texto a la izquierda */
+    flex: 1; /* Ocupa el espacio restante */
+    text-align: left;
 }
 
 .carousel-item h3 {
@@ -420,7 +419,7 @@ header .social-icons img:hover {
 .prev, .next {
     width: 50px; 
     height: 50px; 
-    cursor: pointer; /* Cambia el cursor para indicar que es clickeable */
+    cursor: pointer; 
     position: absolute;
     top: 30%;
     transform: translateY(-50%);
@@ -434,17 +433,17 @@ header .social-icons img:hover {
 
 /* Alineación de botones */
 .prev {
-    position: absolute; /* Posición absoluta con respecto al contenedor */
+    position: absolute; 
     left: 20px;
     top: 50%;
-    transform: translateY(-50%); /* Centra verticalmente */
+    transform: translateY(-50%); 
 }
 
 .next {
-    position: absolute; /* Posición absoluta con respecto al contenedor */
+    position: absolute; 
     right: 20px;
     top: 50%;
-    transform: translateY(-50%); /* Centra verticalmente */
+    transform: translateY(-50%); 
 }
 
 
@@ -502,8 +501,8 @@ header .social-icons img:hover {
 
 .contact-right .key-icon {
     margin-top: 10px;
-    width: auto;  /* Aumenta el tamaño del ícono */
-    height: 180px;  /* Aumenta el tamaño del ícono */
+    width: auto;  
+    height: 180px;  
 }
 
 .public-key-button {
